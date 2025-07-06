@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michelle Strey</title>
+  <link rel="icon" href="favicon.ico" type="image/png" />
+  <link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="navbar">
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">☰</label>
+      <ul class="menu">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- INÍCIO -->
+  <main id="inicio">
+    <div class="intro">
+      <h3 id="myname">Michelle Strey</h3>
+      <p id="description">Dev BackEnd em Formação</p>
+    </div>
+  </main>
+
+  <!-- SOBRE -->
+  <section class="sobre">
+    <h2 id="sobre">Sobre Mim</h2>
+    <img src="images/perfil.jpg" alt="Selfie da Michelle sorridente com piercing no septo, óculos e cabelos castanhos lisos, usando jaqueta preta com mangas cinza, transmitindo um estilo descontraído.">
+    <p class="frase">"Aprender virou o meu jeito favorito de não ficar parada."</p>
+    <p class="textoformatado">
+      Nascida em Blumenau, Santa Catarina, sou curiosa e autodidata.
+      Comecei a estudar programação sozinha e hoje me dedico a Java,
+      Spring e banco de dados, sempre buscando desafios. Tenho paixão pela música,
+      tocando violão, guitarra e bateria há mais de 23 anos, com foco em teoria e harmonia.
+      Já atuei como professora, transformando técnica em aprendizado acessível e inspirador.
+    </p>
+  </section>
+
+  <!-- PROJETOS -->
+  <section class="projetos">
+    <h2 id="projetos">Projetos</h2>
+    <article>
+      <h3>Qnow - Gestão de filas</h3>
+      <div class="imgprojetos">
+        <img src="images/codeslice.png" alt="Pequeno trecho de código em Java Spring">
+        <img src="images/michaelhero.jpg" alt="Michael Scout The Office">
+      </div>
+      <p class="textoformatado">
+        Por que eu fiz esse projeto? <br>
+        Esse é o Qnow! Um sistema de controle de filas, onde eu basicamente inventei um sistema de rodízio para os vendedores não saírem na mão.
+        <br>
+        A arquitetura? <br>
+        - Tem DTO, Repository, Controller e ainda está em desenvolvimento. <br>
+        - PostgreSQL no backend, porque um projeto Spring sem banco de dados não tem nem graça. <br>
+        - E o mais importante: o Postman, onde eu testo as requisições com aquele sentimento de:<br>
+        - "Por favor, não dá erro 500 agora!".
+        <br>
+        Meu grande feito foi fazer um sistema onde o gerente cadastra vendedores e os registra em uma fila ordenada.
+        <br>
+        Eu não sei se algum dia alguém vai usar, mas olha, tá bonitão no banco de dados.
+        <br>
+        Para ver o código, acesse o link do github a seguir: <br>
+        <a href="https://github.com/michellestrey/qnow" class="estilogit" target="_blank" rel="noopener noreferrer">
+          Github
+        </a>
+      </p>
+    </article>
+    <hr>
+    <article>
+      <h3>Api de envio de e-mails</h3>
+      <div class="textoformatado">
+        <p>ApiRest construída em Java Spring e JavaMailSender, que utiliza o Mailtrap para testes.</p>
+        <p>Permite o disparo de e-mails via terminal com HTTPie.</p>
+        <p>Para ver o código, acesse o link do github a seguir:</p>
+        <a href="https://github.com/michellestrey/apienviodeemail" class="estilogit" target="_blank" rel="noopener noreferrer">
+          Github
+        </a>
+      </div>
+    </article>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills">
+    <h2 id="skills">Skills</h2>
+    <section class="skills-box">
+      <i class="fab fa-java" title="Java"></i>
+      <i class="fas fa-cogs" title="Spring Boot"></i>
+      <i class="fas fa-database" title="MySQL / PostgreSQL"></i>
+      <i class="fab fa-python" title="Python (Selenium)"></i>
+      <i class="fab fa-html5" title="HTML"></i>
+      <i class="fab fa-css3-alt" title="CSS"></i>
+      <i class="fab fa-git-alt" title="Git & GitHub"></i>
+    </section>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato">
+    <h2>Contato</h2>
+    <div class="icons-social">
+      <a target="_blank" href="https://github.com/michellestrey">
+        <i class="fab fa-github" aria-hidden="true" title="Github"></i>
+        <span class="sr-only">Github</span>
+      </a>
+      <a target="_blank" href="https://www.linkedin.com/in/michellestrey">
+        <i class="fab fa-linkedin" aria-hidden="true" title="LinkedIn"></i>
+        <span class="sr-only">LinkedIn</span>
+      </a>
+      <a target="_blank" href="https://wa.me/5547997357536">
+        <i class="fab fa-whatsapp" aria-hidden="true" title="WhatsApp"></i>
+        <span class="sr-only">WhatsApp</span>
+      </a>
+      <a href="mailto:micastrey@gmail.com">
+        <i class="fas fa-envelope" aria-hidden="true" title="Email"></i>
+        <span class="sr-only">Email</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ASIDE -->
+  <aside>
+    <h2>Curiosidades & Hobbies</h2>
+    <ul class="curiosidades">
+      <li>🎸 Toco instrumentos desde os 7 anos de idade (violão/guitarra)</li>
+      <li>📖 Autodidata em várias áreas, incluindo programação e música</li>
+      <li>📽️ Fã de séries como The Walking Dead e Grey's Anatomy</li>
+      <li>🍔 Amante de burger e café</li>
+    </ul>
+  </aside>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Contato: <a href="mailto:micastrey@gmail.com">micastrey@gmail.com</a></p>
+    <p>&copy; 2025 Michelle Strey</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
